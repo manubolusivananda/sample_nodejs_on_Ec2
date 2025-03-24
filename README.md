@@ -56,3 +56,4 @@ pm2 start index.js --name node-app
 
 
 
+PM2 (Process Manager 2) is a powerful tool for managing Node.js applications in production environments. It ensures your app runs continuously, restarts on failure, and provides easy monitoring.
