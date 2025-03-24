@@ -4,26 +4,10 @@ Simple node.js app that servers "A Monk in Cloud"
 
 Great for testing simple deployments on Cloud
 
-## Step 1: Install NodeJS and NPM using nvm
-Install node version manager (nvm) by typing the following at the command line.
-sudo yum install curl -y
-```bash
+## Step 1: Install NodeJS 
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-```
-Activate nvm by typing the following at the command line.
 
-```bash
-source ~/.bash_profile
-```
-
-Use nvm to install the latest version of Node.js by typing the following at the command line.
-
-```bash
-nvm install node
-```
-
-Test that node and npm are installed and running correctly by typing the following at the terminal:
+sudo dnf install -y nodejs
 
 ```bash
 node -v
