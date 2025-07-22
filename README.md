@@ -48,7 +48,11 @@ To start the application, run the below command in the terminal:
 ```bash
 npm start
 ```
+To run the application, background we can use nohup command:
 
+```bash
+nohup npm start > output.log 2>&1 &
+```
 or if we want to run application into process manager pm2
 ```bash
 npm install -g pm2
